@@ -8,7 +8,6 @@ import Grafico from './components/grafico'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Grafico></Grafico>
   </React.StrictMode>,
   document.getElementById('root')
 );
