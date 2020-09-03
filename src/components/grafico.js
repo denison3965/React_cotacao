@@ -26,12 +26,12 @@ class Tabela extends Component {
             
             <div className="container">
                 <h2>Informações sobre a IBOVESPA</h2>
-                <hr></hr>
-                <table class="table">
-                <thead class="thead-dark">
+                <hr style={{backgroundColor: "#61dafb"}}></hr>
+                <table class="table table-striped table-dark">
+                <thead>
   
                     <tr>
-                        <th scope="col">ID</th>
+                        <th scope="col"><span style={{color: "#61dafb"}}>ID</span></th>
                         <th scope="col">Data</th>
                         <th scope="col">Abertura</th>
                         <th scope="col">Fechamento</th>
@@ -44,13 +44,13 @@ class Tabela extends Component {
                 <tbody>
                 {this.state.data.map(element => (
                     <tr>
-                        <th scope="row">{element.id}</th>
+                        <th scope="row"><span style={{color: "#61dafb"}}>{element.id}</span></th>
                         <td>{element.data}</td>
-                        <td>{element.abertura} pts</td>
-                        <td>{element.fechamento} pts</td>
+                        <td>{element.abertura} <span style={{color: "#61dafb"}}>pts</span></td>
+                        <td>{element.fechamento} <span style={{color: "#61dafb"}}>pts</span></td>
                         <td id="Variacao">{element.variacao} %</td>
-                        <td>{element.minimo} pts</td>
-                        <td>{element.maximo} pts</td>
+                        <td>{element.minimo} <span style={{color: "#61dafb"}}>pts</span></td>
+                        <td>{element.maximo} <span style={{color: "#61dafb"}}>pts</span></td>
                         <td>{element.volume}</td>
 
                     </tr>
