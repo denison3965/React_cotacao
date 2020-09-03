@@ -26,7 +26,7 @@ render() {
             <div style={{width: "100px", height: "5px", backgroundColor:"#61dafb" }}></div>
             <ul style={{display: "flex", flexWrap: "wrap"}}>
                 {this.state.linguagens.map(item => (
-                    <li style={{width: "250px",margin: "30px"}} key={item.id}>
+                    <li style={{width: "250px",margin: "30px", border: "2px solid #61dafb", padding: "8px"}} key={item.id}>
                         <p><b>Moeda: </b><span style={{color: "#61dafb"}}>{item.code}</span></p>
                         <p><b>Código: </b>{item.codein}</p>
                         <p><b>Nome: </b>{item.name}</p>
