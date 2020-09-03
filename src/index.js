@@ -9,7 +9,6 @@ import Cotacao from './componente3/cotacao'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Cotacao></Cotacao>
   </React.StrictMode>,
   document.getElementById('root')
 );

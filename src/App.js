@@ -13,7 +13,7 @@ export default () =>{
 
       <BrowserRouter> 
       <div className="container" style={{padding: "30px 30px"}}>
-      <Link style={{color: "#333"}} to="/components/grafico.js">IBOVESPA</Link> | <Link style={{color: "#333"}} to="/components3/cotacao.js">Cotacão de Moedas</Link>
+      <Link style={{color: "#40E0D0"}} to="/components/grafico.js">IBOVESPA</Link> | <Link style={{color: "#40E0D0"}} to="/components3/cotacao.js">Cotacão de Moedas</Link>
       </div>
 
        
