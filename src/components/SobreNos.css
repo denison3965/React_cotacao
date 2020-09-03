@@ -1,0 +1,48 @@
+.info--projeto--area{
+    display: flex;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+.info--projeto--escito{
+
+    width: 50%;
+    padding: 5px;
+    font-size: 22px;
+}
+.info--projeto--img{
+    width: 50%;
+    text-align: center;
+}
+.vertical-align {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%); /* Adicionar os prefixos dos navegadores */
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .logo_bootstrap{
+      height:250px;
+      width: 250px;
+  }
+  @media only screen and (max-width: 800px) {
+    .info--projeto--area{
+        flex-direction: column;
+    }
+    .info--projeto--img{
+        width: 100%;
+    }
+    .info--projeto--escito{
+        width: 100%;
+    }
+  }
