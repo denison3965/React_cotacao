@@ -1,0 +1,17 @@
+.devs--area{
+    margin: 15px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 950px) {
+    .devs--area{
+        justify-content: space-around;
+    
+    }
+  }
